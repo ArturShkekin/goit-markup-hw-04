@@ -134,7 +134,14 @@ img {
     padding-bottom: 32px;
 }
 
-.mail-link::before {
+.icon-link {
+    border: 1px solid #EEEEEE;
+    background-size: contain;
+    background-position: center;
+    margin-right: 10px;
+}
+
+/*.mail-link::before {
     content: "";
     width: 16px;
     height: 11.20px;
@@ -152,7 +159,7 @@ img {
     background-image: url("../SVG/smartphone.svg");
     background-repeat: no-repeat;
     background-size: contain;
-}
+}*/
 
 .main-container {
     max-width: 1600px;
