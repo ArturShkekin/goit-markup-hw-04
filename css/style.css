@@ -141,22 +141,18 @@ p {
     margin-right: 10px;
     width: 16px;
     height: 11.20px;
-    --color5: #757575;
 }
 
 .icon-link-tel {
     margin-right: 10px;
     width: 10px;
     height: 14.94px;
-    --color5: #757575;
 }
 
 .icon-link:hover,
 .icon-link:focus,
 .icon-link-tel:hover,
 .icon-link-tel:focus {
-    --color3: #2196F3;
-    --color4: #2196F3;
 }
 
 .main-container {
@@ -413,14 +409,10 @@ p {
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    fill: #ffffff;
-    fill: #AFB1B8;
 }
 
 .icon-instagram:hover,
 .icon-instagram:focus {
-    --color3: #2196F3;
-    --color4: #ffffff;
 }
 
 .our-div {
@@ -485,7 +477,6 @@ p {
     height: 42.02px;
     margin-left: 44px;
     margin-right: 44px;
-    --color2: #AFB1B8;
 }
 
 .logo5 {
@@ -514,7 +505,6 @@ p {
 .our-div-logo:focus .logo5,
 .our-div-logo:hover .logo6,
 .our-div-logo:focus .logo6 {
-    --color4: #2196F3;
 }
 
 .our-link:hover .our-div-logo,
@@ -624,15 +614,8 @@ p {
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    --color1: #afb1b8;
-    --color2: #FFFFFF;
 }
 
-.icon-footer-instagram:hover,
-.icon-footer-instagram:focus {
-    --color3: #2196F3;
-    --color4: #ffffff;
-}
 
 .footer-email-title {
     color: #FFFFFF;
