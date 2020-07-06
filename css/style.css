@@ -141,13 +141,13 @@ p {
 .mail-link:focus .icon-link,
 .mail-link-tel:hover .icon-link-tel,
 .mail-link-tel:focus .icon-link-tel {
-    fill: #2196F3;
+    fill: #2196f3;
 }
 
 .icon-link,
 .icon-link-tel {
-    margin-right: 10px;
     fill: #757575;
+    margin-right: 10px;
 }
 
 .main-container {
@@ -418,12 +418,12 @@ p {
 .icon-instagram {
     width: 20px;
     height: 20px;
-    fill: #AFB1B8;
+    fill: #afb1b8;
 }
 
 .team-link:hover .icon-instagram,
 .team-link:focus .icon-instagram {
-    fill: #ffffff;
+    fill: #fff;
 }
 
 .our-div {
@@ -505,12 +505,12 @@ p {
 }
 
 .logo-style {
-    fill: #AFB1B8;
+    fill: #afb1b8;
 }
 
 .our-link:hover .logo-style,
 .our-link:focus .logo-style {
-    fill: #2196F3;
+    fill: #2196f3;
 }
 
 .our-link:hover .our-div-logo,
@@ -618,7 +618,7 @@ p {
 .icon-footer-instagram {
     width: 20px;
     height: 20px;
-    fill: #FFFFFF;
+    fill: #fff;
 }
 
 .footer-social-link {
@@ -696,7 +696,6 @@ p {
     width: 24px;
     height: 24px;
     padding-left: 10px;
-    fill: #FFFFFF;
 }
 
 .footer-signature {
