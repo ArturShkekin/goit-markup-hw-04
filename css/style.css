@@ -137,22 +137,17 @@ p {
     padding-bottom: 32px;
 }
 
-.icon-link {
-    margin-right: 10px;
-    width: 16px;
-    height: 11.20px;
+.mail-link:hover .icon-link,
+.mail-link:focus .icon-link,
+.mail-link-tel:hover .icon-link-tel,
+.mail-link-tel:focus .icon-link-tel {
+    fill: #2196F3;
 }
 
+.icon-link,
 .icon-link-tel {
     margin-right: 10px;
-    width: 10px;
-    height: 14.94px;
-}
-
-.icon-link:hover,
-.icon-link:focus,
-.icon-link-tel:hover,
-.icon-link-tel:focus {
+    fill: #757575;
 }
 
 .main-container {
@@ -397,22 +392,38 @@ p {
     padding-bottom: 24px;
 }
 
+.team-social-network {
+    display: inline-flex;
+}
+
 .team-social-network:not(:last-child) {
     margin-right: 10px;
 }
 
 .team-link {
     display: inline-flex;
-}
-
-.icon-instagram {
-    width: 44px;
+    align-items: center;
+    justify-content: center;
     height: 44px;
+    width: 44px;
+    background-color: #ffffff;
     border-radius: 50%;
 }
 
-.icon-instagram:hover,
-.icon-instagram:focus {
+.team-link:hover,
+.team-link:focus {
+    background-color: #2196F3;
+} 
+
+.icon-instagram {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+}
+
+.team-link:hover .icon-instagram,
+.team-link:focus .icon-instagram {
+    fill: #ffffff;
 }
 
 .our-div {
@@ -493,28 +504,18 @@ p {
     margin-right: 40px;
 }
 
-.our-div-logo:hover .logo1, 
-.our-div-logo:focus .logo1,
-.our-div-logo:hover .logo2,
-.our-div-logo:focus .logo2,
-.our-div-logo:hover .logo3,
-.our-div-logo:focus .logo3,
-.our-div-logo:hover .logo4,
-.our-div-logo:focus .logo4,
-.our-div-logo:hover .logo5,
-.our-div-logo:focus .logo5,
-.our-div-logo:hover .logo6,
-.our-div-logo:focus .logo6 {
+.logo-style {
+    fill: #AFB1B8;
+}
+
+.our-link:hover .logo-style,
+.our-link:focus .logo-style {
+    fill: #2196F3;
 }
 
 .our-link:hover .our-div-logo,
 .our-link:focus .our-div-logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border: 1px solid #2196F3;
-    border-radius: 4px;
-    height: 90px;
 }
 
 .footer {
@@ -606,16 +607,34 @@ p {
    
 }
 
+.footer-li {
+    display: inline-flex;
+}
+
 .footer-li:not(:last-child) {
     margin-right: 10px;
 }
 
 .icon-footer-instagram {
+    width: 20px;
+    height: 20px;
+    fill: #FFFFFF;
+}
+
+.footer-social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
+.footer-social-link:hover,
+.footer-social-link:focus {
+     background-color: #2196f3;
+}
 
 .footer-email-title {
     color: #FFFFFF;
@@ -663,7 +682,7 @@ p {
     font-weight: 900;
     font-size: 16px;
     line-height: 30px;
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -677,6 +696,7 @@ p {
     width: 24px;
     height: 24px;
     padding-left: 10px;
+    fill: #FFFFFF;
 }
 
 .footer-signature {
